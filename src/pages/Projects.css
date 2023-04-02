@@ -1,0 +1,35 @@
+.project-section h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.grid-container .grid-item{
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    backdrop-filter: blur(3px);
+}
+.grid-item img{
+    object-fit: cover;
+    width: 200px;
+    max-height: auto;
+    border-radius: 10px;
+}
+
+.grid-item h1{
+    margin: auto;
+    color: aliceblue;
+}
+
+.grid-item p {
+    width: 500px;
+    color: aliceblue;
+}

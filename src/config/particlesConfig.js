@@ -23,7 +23,7 @@ const particlesConfig = {
           },
           particles: {
             color: {
-              value: "#FFD4DB",
+              value: "#F5EEF8",
             },
             links: {
               enable: true,
@@ -57,7 +57,7 @@ const particlesConfig = {
             value: 0.9,
           },
           shape: {
-            type: 'polygon'
+            type: 'triangle'
           },
           size: {
             random: true,
