@@ -1,8 +1,8 @@
 import './Footer.css'
 export default function Footer() {
   return (
-    <footer>
-      Rong Chen
+    <footer style={{color:'white'}}>
+      Made with 💩 by Rong Chen
     </footer>
   )
 }

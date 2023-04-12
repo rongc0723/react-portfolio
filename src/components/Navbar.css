@@ -1,8 +1,9 @@
   .navbar {
     height: 60px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     display: flex;
+    margin-bottom: 10px;
   }
   
   .navbar nav a {
@@ -22,6 +23,6 @@
 
   .navbar nav a.active {
     top: -5px;
-    color: #FFD4DB;
+    color: #b1ddf1;
   }
   

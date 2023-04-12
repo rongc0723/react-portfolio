@@ -2,7 +2,7 @@
 const particlesConfig = {
           background: {
             color: {
-              value: '#738FA7',
+              value: '#000000',
             },
           },
           fpsLimit: 120,
@@ -30,10 +30,10 @@ const particlesConfig = {
               width: 1,
               opacity: 1,
               distance: 150,
-              color: '#FFD4DB',
+              color: '#b1ddf1',
               triangles: {
                 enable: true,
-                color: '#FFD4DB',
+                color: '#b1ddf1',
                 opacity: 0.2,
               },
             },
