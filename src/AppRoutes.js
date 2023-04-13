@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -10,8 +10,7 @@ import Projects from './pages/Projects';
 export default function AppRoutes() {
   return (
     <div>
-        <BrowserRouter>
-          <HashRouter basename='/'>
+          <BrowserRouter basename='/react-portfolio'>
             <Routes>
               <Route path="/" element={<Layout/>}>
                 <Route index element={<Home />} />
@@ -21,8 +20,7 @@ export default function AppRoutes() {
                 <Route path="experience" element={<Experience/>} />
               </Route>
             </Routes>
-          </HashRouter>
-        </BrowserRouter>
+          </BrowserRouter>
     </div>
   )
 }
