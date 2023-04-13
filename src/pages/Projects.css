@@ -21,7 +21,7 @@
 }
 .grid-item img{
     object-fit: cover;
-    width: 200px;
+    width: 150px;
     max-height: auto;
     border-radius: 10px;
 }
