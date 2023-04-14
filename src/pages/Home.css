@@ -61,3 +61,19 @@
 .content .socials a{
     color: aliceblue;
 }
+
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content img{
+        margin: 0 auto;
+    }
+
+    .content .info {
+        margin-top: 20px;
+    }
+}
