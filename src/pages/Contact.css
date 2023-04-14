@@ -27,3 +27,16 @@
     color: aliceblue;
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-info {
+        margin: 0 auto;
+    }
+}
+    

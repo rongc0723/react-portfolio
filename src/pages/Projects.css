@@ -35,3 +35,12 @@
     width: 500px;
     color: aliceblue;
 }
+
+@media screen and (max-width: 1200px) {
+    .grid-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-item p {
+        width: 100%;
+    }
+}   
