@@ -34,15 +34,25 @@
   }
 
 
-  @media screen and (max-width: 1000px) {
+
+  @media screen and (max-width: 800px) {
     .navbar ul {
-      width: 100%;
+      width: 50%;
+    }
+    .navbar ul li {
+      margin: 0 10px;
     }
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 460px) {
     .navbar ul {
-      width: 100%;
+      width: auto;
+      height: 40px;
+      justify-content: space-evenly;
+      padding: 0px;
+    }
+    .navbar ul li a{
+      font-size: 15px;
     }
   }
     

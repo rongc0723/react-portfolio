@@ -70,17 +70,19 @@
 }
 
 @media screen and (max-width: 768px) {
-    .content {
+    .content.show {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: 0px 0px;
     }
 
-    .content img{
+    .content.show img{
         margin: 0 auto;
     }
 
-    .content .info {
-        margin-top: 20px;
+    .content.show .info {
+        margin: 20px 0px;
     }
 }
+    
