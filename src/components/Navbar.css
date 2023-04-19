@@ -5,7 +5,7 @@
     justify-content: space-evenly;
     display: flex;
     margin: 10px auto;
-    padding: 0;
+    padding: none;
     width: 50%;
   }
   
@@ -22,6 +22,7 @@
     list-style: none;
   }
 
+
   .navbar .initials {
     font-size: 30px;
     font-weight: bold;
@@ -31,8 +32,9 @@
     top: -5px;
     color: #b1ddf1;
   }
-  
-  @media screen and (max-width: 768px) {
+
+
+  @media screen and (max-width: 1000px) {
     .navbar ul {
       width: 100%;
     }

@@ -1,4 +1,12 @@
 .about {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateY(50px);
+}
+
+.about.show{
+    opacity: 1;
+    transform: translateY(0px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,14 +20,15 @@
 }
 
 .about .about-wrapper{
-    width:50%;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     backdrop-filter: blur(3px);
+    width: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .about .description {
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 0;
 }
 
@@ -28,4 +37,18 @@
     list-style-type: none;
     padding-left: 0;
     text-align: center;
+    padding-bottom: 10px;
 }
+
+.about ul li{
+    display: inline;
+    margin: auto 10px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .about .about-wrapper{
+        width: 80%;
+    }
+}
+    

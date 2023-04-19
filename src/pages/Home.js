@@ -6,10 +6,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import resume from '../assets/rc-resume.pdf'
+import { useState, useEffect } from 'react';
 
 export default function Home() {
+  const [showComponent, setShowComponent] = useState(false);
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setShowComponent(true);
+    }, 50);
+
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, []);
   return (
-    <div className='content'>
+    <div className={`content ${showComponent ? 'show' : ''}`}>
       <img src={img} alt="baby"/>
       <div className='info'>
         <h1>Hi, I'm Rong Chen</h1>
