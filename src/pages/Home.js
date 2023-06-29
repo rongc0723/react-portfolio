@@ -5,7 +5,7 @@ import whoConfig from '../config/whoConfig'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
-import resume from '../assets/rc-resume.pdf'
+import resume from '../assets/rchen_resume.pdf'
 import { useState, useEffect } from 'react';
 
 export default function Home() {

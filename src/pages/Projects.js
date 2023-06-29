@@ -2,7 +2,7 @@ import './Projects.css'
 import memory from '../assets/memory.png'
 import sfoodify from '../assets/sfoodify.png'
 import recipe from '../assets/recipe.png'
-import finance from '../assets/finance.png'
+import webscraper from '../assets/webscraper.png'
 import { useEffect, useState } from 'react'
 
 
@@ -23,7 +23,7 @@ export default function Projects() {
         <div class="grid-item">
           <h1>Sfoodify</h1>
           <a href='https://github.com/rongc0723' target='blank'><img src={sfoodify} alt='sfoodify project'/></a>
-          <p>Utilized Spotify and Spooancular API to generate curated playlists and recipes for an authorized user.</p>
+          <p>Utilized Spotify and Spooancular API to generate curated playlists and recipes for an authorized user</p>
         </div>
         <div class="grid-item">
           <h1>Memory Game</h1>
@@ -36,9 +36,9 @@ export default function Projects() {
           <p>Webapp that allows an user to create recipes and search for recipes on a local json database</p>
         </div>
         <div class="grid-item">
-          <h1>Finance Tracker</h1>
-          <a href='https://github.com/rongc0723' target='blank'><img src={finance} alt='webscraper project'/></a>
-          <p>Webapp that allows users to keep track of their spendings</p>
+          <h1>Marciano Web Scraper</h1>
+          <a href='https://github.com/rongc0723' target='blank'><img src={webscraper} alt='webscraper project'/></a>
+          <p>Python program that allows students to quickly get menu items and important nutrition facts</p>
         </div>
       </div>
     </div>

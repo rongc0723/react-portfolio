@@ -11,7 +11,7 @@ const experiences = [
         location: "(Remote)",
         position: "Student QA Developer",
         icon: <FontAwesomeIcon icon={faBug} size="2x" />,
-        description: " Created a test automation framework using Selenium and Java to test the company's website. Developed a test suite that tests the company's website for bugs and errors."
+        description: " Worked within company's automation framework to create automated tests for the company's website using Selenium and TestNG."
     },
     {
         date: "Feb 2023 - Present",
