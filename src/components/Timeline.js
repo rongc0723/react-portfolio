@@ -6,12 +6,12 @@ import { faCode, faDatabase, faBug } from "@fortawesome/free-solid-svg-icons";
 
 const experiences = [
     {
-        date: "May 2023 - Present",
-        company: "Amica Mutual Insurance",
-        location: "(Remote)",
-        position: "Student QA Developer",
-        icon: <FontAwesomeIcon icon={faBug} size="2x" />,
-        description: " Worked within company's automation framework to create automated tests for the company's website using Selenium and TestNG."
+        date: "Sept 2023 - Present",
+        company: "Quantly",
+        location: "Boston, MA",
+        position: "Lead Technical Developer",
+        icon: <FontAwesomeIcon icon={faCode} size="2x" />,
+        description: "Guided a cross-functional team consisting of 4 developers and 1 UX designer to successfully establish and develop a startup dedicated to providing college students with a platform to practice for quantitative analysis interviews."
     },
     {
         date: "Feb 2023 - Present",
@@ -19,7 +19,15 @@ const experiences = [
         location: "(Boston, MA)",
         position: "Software Engineer",
         icon: <FontAwesomeIcon icon={faCode} size="2x" />,
-        description: "Redesigned and developed a new 2023 Boston Hacks hackathon website using React and Firebase. Created a website that hosts all previous Boston Hacks hackathons and their corresponding websites."
+        description: "• Spearheaded the development and continuous maintenance of BostonHacks’ hackathon website to deliver a seamless experience for a community of over 500 hackers."
+    },
+    {
+        date: "May 2023 - Aug 2023",
+        company: "Amica Mutual Insurance",
+        location: "(Lincoln, RI)",
+        position: "Student QA Developer",
+        icon: <FontAwesomeIcon icon={faBug} size="2x" />,
+        description: "  Developed and integrated automated testing within Amica’s Quality Assurance framework using Selenium and TestNG, resulting in a 30% reduction in manual testing and enhancing testing efficiency."
     },
     {
         date: "Jun 2022 - Aug 2022",
@@ -27,7 +35,7 @@ const experiences = [
         location: "(Remote)",
         position: "Database Intern",
         icon: <FontAwesomeIcon icon={faDatabase} size="2x" />,
-        description: "Created a MySQL database that stores all company data and allows for easy access to data from scratch. Designed a user-friendly interface that allowed 100+ teaching assistnts to easily access and update student data using Javacript and PHP."
+        description: "Pioneered the development of a comprehensive full-stack application that empowered 100+ teaching assistants to efficiently evaluate and manage a diverse cohort of 100+ students."
     }
 ]
 
