@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.655c4ca6.css",
-    "main.js": "/react-portfolio/static/js/main.1d4bb0ad.js",
+    "main.css": "/react-portfolio/static/css/main.e8f25096.css",
+    "main.js": "/react-portfolio/static/js/main.03af4f4e.js",
     "static/media/webscraper.png": "/react-portfolio/static/media/webscraper.4a1b515558cd1ee972c8.png",
-    "static/media/memory.png": "/react-portfolio/static/media/memory.b966710aa10221ee2907.png",
-    "static/media/rchen_resume.pdf": "/react-portfolio/static/media/rchen_resume.c21ed4a720798833359a.pdf",
-    "static/media/recipe.png": "/react-portfolio/static/media/recipe.aeedb556f4f3afa187e3.png",
+    "static/media/ai.png": "/react-portfolio/static/media/ai.ed45df074b8e179e5fee.png",
+    "static/media/quantly.png": "/react-portfolio/static/media/quantly.b46679101c89a92cad60.png",
+    "static/media/bhacks.png": "/react-portfolio/static/media/bhacks.1dda7d63346731b88b9c.png",
+    "static/media/Rong_Chen_Resume.pdf": "/react-portfolio/static/media/Rong_Chen_Resume.ef8e48c05dd275a5cb90.pdf",
+    "static/media/spotme.png": "/react-portfolio/static/media/spotme.b70a77f81c322ad9f5ef.png",
+    "static/media/raft.png": "/react-portfolio/static/media/raft.1c8fdc2087e24d2b09f4.png",
     "static/media/sfoodify.png": "/react-portfolio/static/media/sfoodify.0294ca5a366c9c38944b.png",
     "static/media/photo.jpg": "/react-portfolio/static/media/photo.f80c3be1d2277d114e26.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.655c4ca6.css.map": "/react-portfolio/static/css/main.655c4ca6.css.map",
-    "main.1d4bb0ad.js.map": "/react-portfolio/static/js/main.1d4bb0ad.js.map"
+    "main.e8f25096.css.map": "/react-portfolio/static/css/main.e8f25096.css.map",
+    "main.03af4f4e.js.map": "/react-portfolio/static/js/main.03af4f4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.655c4ca6.css",
-    "static/js/main.1d4bb0ad.js"
+    "static/css/main.e8f25096.css",
+    "static/js/main.03af4f4e.js"
   ]
 }
