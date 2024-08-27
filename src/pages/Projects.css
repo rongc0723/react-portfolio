@@ -41,6 +41,7 @@
 .grid-item h1{
     margin: auto;
     color: aliceblue;
+    margin-bottom: 10px;
 }
 
 .grid-item p {

@@ -6,6 +6,14 @@ import { faCode, faDatabase, faBug } from "@fortawesome/free-solid-svg-icons";
 
 const experiences = [
     {
+        date: "May 2024 - Present",
+        company: "Spectrum",
+        location: "Denver, CO",
+        position: "Platforms Engineer Intern",
+        icon: <FontAwesomeIcon icon={faCode} size="2x" />,
+        description: "Developed and maintained infrastructure for the Data Science team to run their machine learning workflows and deploy models with ease "
+    },
+    {
         date: "Sept 2023 - Present",
         company: "Quantly",
         location: "Boston, MA",
@@ -17,7 +25,7 @@ const experiences = [
         date: "Feb 2023 - Present",
         company: "Boston Hacks",
         location: "(Boston, MA)",
-        position: "Software Engineer",
+        position: "Front-End Engineer / Organizer",
         icon: <FontAwesomeIcon icon={faCode} size="2x" />,
         description: "• Spearheaded the development and continuous maintenance of BostonHacks’ hackathon website to deliver a seamless experience for a community of over 500 hackers."
     },
