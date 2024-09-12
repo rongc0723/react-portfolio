@@ -8,18 +8,10 @@ const experiences = [
     {
         date: "May 2024 - Present",
         company: "Spectrum",
-        location: "Denver, CO",
+        location: "(Denver, CO)",
         position: "Platforms Engineer Intern",
         icon: <FontAwesomeIcon icon={faCode} size="2x" />,
         description: "Developed and maintained infrastructure for the Data Science team to run their machine learning workflows and deploy models with ease "
-    },
-    {
-        date: "Sept 2023 - Present",
-        company: "Quantly",
-        location: "Boston, MA",
-        position: "Lead Technical Developer",
-        icon: <FontAwesomeIcon icon={faCode} size="2x" />,
-        description: "Guided a cross-functional team consisting of 4 developers and 1 UX designer to successfully establish and develop a startup dedicated to providing college students with a platform to practice for quantitative analysis interviews."
     },
     {
         date: "Feb 2023 - Present",
@@ -27,7 +19,15 @@ const experiences = [
         location: "(Boston, MA)",
         position: "Front-End Engineer / Organizer",
         icon: <FontAwesomeIcon icon={faCode} size="2x" />,
-        description: "• Spearheaded the development and continuous maintenance of BostonHacks’ hackathon website to deliver a seamless experience for a community of over 500 hackers."
+        description: "Spearheaded the development and continuous maintenance of BostonHacks’ hackathon website to deliver a seamless experience for a community of over 500 hackers."
+    },
+    {
+        date: "Sept 2023 - Aug 2024",
+        company: "Quantly",
+        location: "(Boston, MA)",
+        position: "Lead Technical Developer",
+        icon: <FontAwesomeIcon icon={faCode} size="2x" />,
+        description: "Guided a cross-functional team consisting of 4 developers and 1 UX designer to successfully establish and develop a startup dedicated to providing college students with a platform to practice for quantitative analysis interviews."
     },
     {
         date: "May 2023 - Aug 2023",

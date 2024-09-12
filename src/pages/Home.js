@@ -7,6 +7,7 @@ import { faGithub, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-sv
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import resume from '../assets/Rong_Chen_Resume.pdf'
 import { useState, useEffect } from 'react';
+import headshot from '../assets/headshot.jpg'
 
 export default function Home() {
   const [showComponent, setShowComponent] = useState(false);
@@ -21,7 +22,7 @@ export default function Home() {
   }, []);
   return (
     <div className={`content ${showComponent ? 'show' : ''}`}>
-      <img src={img} alt="baby"/>
+      <img src={headshot} alt="baby"/>
       <div className='info'>
         <h1>Hi, I'm Rong Chen</h1>
         <h2>I'm a <span className='typewriter'><Typewriter options={whoConfig}/></span></h2>
