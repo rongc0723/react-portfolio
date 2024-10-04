@@ -1,5 +1,4 @@
 import './Home.css'
-import img from '../assets/photo.jpg'
 import Typewriter from 'typewriter-effect';
 import whoConfig from '../config/whoConfig'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
