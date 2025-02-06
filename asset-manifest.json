@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e8f25096.css",
-    "main.js": "/react-portfolio/static/js/main.716e1600.js",
+    "main.js": "/react-portfolio/static/js/main.acd634c4.js",
     "static/media/webscraper.png": "/react-portfolio/static/media/webscraper.4a1b515558cd1ee972c8.png",
     "static/media/ai.png": "/react-portfolio/static/media/ai.ed45df074b8e179e5fee.png",
     "static/media/quantly.png": "/react-portfolio/static/media/quantly.b46679101c89a92cad60.png",
     "static/media/bhacks.png": "/react-portfolio/static/media/bhacks.1dda7d63346731b88b9c.png",
-    "static/media/Rong_Chen_Resume.pdf": "/react-portfolio/static/media/Rong_Chen_Resume.3b53f4f6cb2e28c3e94d.pdf",
+    "static/media/Rong_Chen_Resume.pdf": "/react-portfolio/static/media/Rong_Chen_Resume.0e41ba253a28a1f66013.pdf",
     "static/media/spotme.png": "/react-portfolio/static/media/spotme.b70a77f81c322ad9f5ef.png",
     "static/media/raft.png": "/react-portfolio/static/media/raft.1c8fdc2087e24d2b09f4.png",
     "static/media/sfoodify.png": "/react-portfolio/static/media/sfoodify.0294ca5a366c9c38944b.png",
     "static/media/headshot.jpg": "/react-portfolio/static/media/headshot.036e8af867b4365e27cf.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.e8f25096.css.map": "/react-portfolio/static/css/main.e8f25096.css.map",
-    "main.716e1600.js.map": "/react-portfolio/static/js/main.716e1600.js.map"
+    "main.acd634c4.js.map": "/react-portfolio/static/js/main.acd634c4.js.map"
   },
   "entrypoints": [
     "static/css/main.e8f25096.css",
-    "static/js/main.716e1600.js"
+    "static/js/main.acd634c4.js"
   ]
 }
