@@ -26,8 +26,8 @@ export default function Home() {
         <h1>Hi, I'm Rong Chen</h1>
         <h2>I'm a <span className='typewriter'><Typewriter options={whoConfig}/></span></h2>
         <ul>
-          <li> 🇺🇸 based in New York, USA</li>
-          <li> 🎓 Student at Boston University</li>
+          <li> 🇺🇸 based in Madison, WI</li>
+          <li> 💼 Software Engineer at Google</li>
           <li> 📧 rongc@bu.edu</li>
         </ul>
         <div className='socials'>

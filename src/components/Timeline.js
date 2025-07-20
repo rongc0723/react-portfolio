@@ -6,12 +6,20 @@ import { faCode, faDatabase, faBug } from "@fortawesome/free-solid-svg-icons";
 
 const experiences = [
     {
-        date: "May 2024 - Present",
+        date: "July 2025",
+        company: "Google",
+        location: "(Madison, WI)",
+        position: "Software Engineer",
+        icon: <FontAwesomeIcon icon={faCode} size="2x" />,
+        description: "Doing cool stuff and caching things."
+    },
+    {
+        date: "May 2024 - May 2025",
         company: "Spectrum",
         location: "(Denver, CO)",
         position: "Platforms Engineer Intern",
         icon: <FontAwesomeIcon icon={faCode} size="2x" />,
-        description: "Developed and maintained infrastructure for the Data Science team to run their machine learning workflows and deploy models with ease "
+        description: "Developed and maintained infrastructure for the Data Science team to run their machine learning workflows and deploy models with ease."
     },
     {
         date: "Feb 2023 - Present",
